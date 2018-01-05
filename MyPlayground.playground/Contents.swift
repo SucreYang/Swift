@@ -520,19 +520,45 @@ class MyViewController : UIViewController {
 //speed = ["life":23, "swew":45]
 
 
-class Viecle {
-    var currentSpeed = 0.0
-    var describtion: String {
-        return "The current speed is \(currentSpeed)"
-    }
-}
-class Bicycl: Viecle {
-    var ifHasbasket = false
-}
-let mybike = Bicycl()
-mybike.currentSpeed = 12.0
-mybike.describtion
-mybike.ifHasbasket = true
+//class Viecle {
+//    var currentSpeed = 0.0
+//    var describtion: String {
+//        return "The current speed is \(currentSpeed)"
+//    }
+//}
+//class Bicycl: Viecle {
+//    var ifHasbasket = false
+//}
+//let mybike = Bicycl()
+//mybike.currentSpeed = 12.0
+//mybike.describtion
+//mybike.ifHasbasket = true
 
-
+//struct Matrix {
+//    var rows: Int, clumns: Int
+//    var grid: [Double]
+//    init(row: Int, clumn: Int) {
+//        self.rows = row
+//        self.clumns = clumn
+//        //grid = Array(repeating: 0.0, count: rows * clumns)
+//        grid = Array(repeating: 0.0, count: rows * clumns)
+//    }
+//    func isoutofFow(_ row:Int, _ clumn: Int) -> Bool {
+//        return row < rows && row >= 0 && clumn >= 0 && clumn < clumns
+//    }
+//    
+//    subscript (row: Int, clumn: Int) -> Double {
+//    get {
+//        assert(isoutofFow(row, clumn), "get out of range")
+//        return grid[row * clumns + clumn]
+//    }
+//    set {
+//        assert(isoutofFow(row, clumn), "set out of range")
+//        grid[row * clumns + clumn] = newValue
+//    }
+//    }
+//}
+//
+//var matrix = Matrix(row: 3, clumn: 4)
+//matrix[0,0] = 56
 

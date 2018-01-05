@@ -546,7 +546,7 @@ class MyViewController : UIViewController {
 //    func isoutofFow(_ row:Int, _ clumn: Int) -> Bool {
 //        return row < rows && row >= 0 && clumn >= 0 && clumn < clumns
 //    }
-//    
+//
 //    subscript (row: Int, clumn: Int) -> Double {
 //    get {
 //        assert(isoutofFow(row, clumn), "get out of range")
